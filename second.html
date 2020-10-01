@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <link rel="stylesheet" href="sk.css" type="text/css">
+    <link rel="stylesheet" href="second.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            
+            <div class= "wrap-container">
+                <div class="header-images">
+                  <a href="Sachin.html"><img src ="image/logo3.jpg" alt="logo" class="brand-image"></a>  
+
+                </div>
+                <div class="menu">
+<ul>
+    <a href="second.html"><li>Movie</li></a>
+    <a href=""><li>TV series</li></a>
+    <a href=""><li>Audio</li></a>
+</ul>
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="wrapper-content">
+           
+           
+
+           <div class="slideshow-container">
+
+            <div class="mySlides fade">
+             
+              <img src ="image/abc1 (1).jpg" alt="11" class="front11">
+              
+            </div>
+            <div class="mySlides fade">
+             
+                <img src="image/abc2 (1).jpg" alt="22" class="front22">
+                
+              </div>
+              <div class="mySlides fade">
+             
+                <img src="image/abc3 (1).jpg" alt="33" class="front33">
+                
+              </div>
+              <div class="mySlides fade">
+             
+                <img src="image/abc4 (1).jpg" alt="44" class="front44">
+                
+              </div>
+              <div class="mySlides fade">
+             
+                <img src="image/abc5 (1).jpg" alt="55" class="front55">
+                
+              </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <br>
+            
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+ 
+    
+            </div>
+           
+                
+              <div class="movie3">
+                <img src="image/nano1.jpg" alt="n1" class="n1" >
+                
+                   
+                    
+                        
+                <img src="image/nano2.jpg" alt="n2" class="n2" >
+                <img src="image/nano3.jpg" alt="n3" class="n3" >
+                <img src="image/nano4.jpg" alt="n4" class="n4" > 
+                <img src="image/nano5.jpg" alt="n5" class="n5" ><br>
+                <img src="image/nano6.jpg" alt="n6" class="n6" >
+                <img src="image/nano7.jpg" alt="n7" class="n7" >
+                <img src="image/nano8.jpg" alt="n8" class="n8" >
+                <img src="image/nano9.jpg" alt="n9" class="n9" >
+                <img src="image/nano10.jpg" alt="n10" class="n10" ><br>
+                <img src="image/nano11.jpg" alt="n11" class="n11" >
+                <img src="image/nano12.jpg" alt="n12" class="n12" >
+
+
+
+
+                <img src="image/nano13.jpg" alt="n13" class="n13" >
+                <img src="image/nano14.jpg" alt="n14" class="n14" >
+                <img src="image/nano15.jpg" alt="n15" class="n15" ><br>
+                <img src="image/nano16.jpg" alt="n16" class="n16" >
+                <img src="image/nano17.jpg" alt="n17" class="n17" >
+                <img src="image/nano18.jpg" alt="n18" class="n18" >
+                <img src="image/nano19.jpg" alt="n19" class="n19" >
+                <img src="image/nano20.jpg" alt="n20" class="n20" ><br>
+                <img src="image/nano21.jpg" alt="n21" class="n21" >
+                <img src="image/nano22.jpg" alt="n22" class="n22" >
+                <img src="image/nano23.jpg" alt="n23" class="n23" >
+                <img src="image/nano24.jpg" alt="n24" class="n24" >
+                <img src="image/nano25.jpg" alt="n25" class="n25" ><br>
+                <img src="image/nano26.jpg" alt="n26" class="n26" >
+                <img src="image/nano27.jpg" alt="n27" class="n27" >
+                <img src="image/nano29.jpg" alt="n29" class="n29" >
+                <img src="image/nano30.jpg" alt="n30" class="n30" >
+                <img src="image/nano31.jpg" alt="n31" class="n31" ><br>
+                <img src="image/nano32.jpg" alt="n32" class="n32" >
+                <img src="image/nano33.jpg" alt="n33" class="n33" >
+                <img src="image/nano34.jpg" alt="n34" class="n34" >
+                <img src="image/nano35.jpg" alt="n35" class="n35" >
+                <img src="image/nano36.jpg" alt="n36" class="n36" >
+                  </div>
+                  <div class="header1">
+            
+                    <div class= "wrap-container1">
+                        <div class="header-images1">
+                            <img src="image/logo3.jpg" alt="logo1" class="brand-image1">
+        
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="menu1">
+                    Powered by 365 Entertainment Portal 2019. All Rights Reserved.</div>
+                                </div>
+                    
+        </div>
+    </div>
+    
+</body>
+</html>

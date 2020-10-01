@@ -1,0 +1,232 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    background-color: black;
+    
+}
+.header{
+    width: 100%;
+    height: 70px;
+    
+    background: rgba(216, 184, 3, 0.5);
+    
+    top: 0px;
+
+}
+
+.wrap-container{
+width: 80%;
+margin: 0px auto;
+
+
+}
+.brand-image{
+    width: 80%;
+    height: 80%;
+    padding: 20% 0%;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    color:black;
+    
+    font-size: 150%;
+    padding: 8px;
+    line-height: 1.5;
+}
+
+.menu ul a{
+    text-decoration: none;
+    
+}
+.header-images{
+    float: left;
+    width: 80px;
+
+    height: 40px;
+}
+.menu{
+    float: left;
+}
+.wrapper-content{
+    margin-top: 0%;
+    background-size: 90%;
+    background-color: black;
+    
+
+}
+
+  
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1%;
+    margin-top: -3%;
+    color: white;
+    font-weight: bold;
+    font-size: 180%;
+    transition: 0.6s ease;
+    border-radius: 0 3% 3% 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  #sk{
+      padding-top: 5%;
+      color: blanchedalmond;
+      padding-left: 4%;
+      padding-right: 4%;
+  }
+  .movie1::after{
+      padding-left: 100%;
+      position: relative;
+      
+  }
+  .mm1{
+      padding-left: 4%;
+  }
+  .content {
+    position: absolute; 
+    bottom: 0;
+    
+    color: #f1f1f1;
+    width: 15%;
+    
+  }
+  .mm6{
+      padding-left: 4%;
+      padding-top: 3%;
+  }
+  #sk1{
+    padding-top: 5%;
+    color: blanchedalmond;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.mm7{
+    padding-left: 4%;
+    
+}
+.mm12{
+    padding-left: 4%;
+    padding-top: 3%;
+}
+.movie3{
+    padding-left: 40px;
+}
+
+.header1{
+    width: 100%;
+    height: 60px;
+    background: rgba(216, 184, 3, 0.5);
+    position: absolute;
+   padding-top: 10px;
+
+}
+.brand-image1{
+    width: 20%;
+    height: 8%;
+    padding: 2% 0%;
+    padding-left: 10%;
+}
+.header-images1{
+    float: left;
+    position: absolute;
+}
+.wrap-container1{
+    width: 80%;
+    padding-top: 0px;
+    
+    }
+    .menu1{
+      
+        padding-top: 2%;
+        color: rgb(240, 240, 247);
+        padding-left: 30%;
+        font-size: 120%;
+    }
+    .front1{
+        width: 100%;
+        height: 50%;
+        
+    }
+    .front2{
+        width: 100%;
+        height: 50%;
+    }
+    .front3{
+        width: 100%;
+        height: 50%;
+    }
+    .front4{
+        width: 100%;
+        height: 50%;
+    }
+    .front5{
+        width: 100%;
+        height: 50%;
+    }
+   
+    .mm4{
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+    .mm5{
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+    .mm3{
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+    .mm2{
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+    .mm8{
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+    .mm9{
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+    .mm10{
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+    .mm11{
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+    .mm13{
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+    .mm14{
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+    .mm15{
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+    .mm16{
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+

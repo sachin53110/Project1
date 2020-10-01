@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <link rel="stylesheet" href="sk.css" type="text/css">
+    
+
+</head>
+<body>
+  
+    <div class="wrapper">
+        <div class="header" >
+          
+            
+            <div class= "wrap-container">
+                <div class="header-images">
+                    <img src="image/logo3.jpg" alt="logo" class="brand-image">
+
+                </div>
+                <div class="menu">
+<ul>
+    <a href="second.html"><li>Movie</li></a>
+    <a href=""><li>TV series</li></a>
+    <a href=""><li>Audio</li></a>
+</ul>
+
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
+        <div class="wrapper-content">
+           
+           
+
+           <div class="slideshow-container">
+
+            <div class="mySlides fade">
+             
+              <img src="image/abc1.jpg" alt="1" class="front1">
+              
+            </div>
+            <div class="mySlides fade">
+             
+                <img src="image/abc2.jpg" alt="2" class="front2">
+                
+              </div>
+              <div class="mySlides fade">
+             
+                <img src="image/abc3.jpg" alt="3" class="front3">
+                
+              </div>
+              <div class="mySlides fade">
+             
+                <img src="image/abc4.jpg" alt="4" class="front4">
+                
+              </div>
+              <div class="mySlides fade">
+             
+                <img src="image/abc5.jpg" alt="5" class="front5">
+                
+              </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <br>
+            
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    <h1 id="sk">Popular in Action<hr></h1>
+
+ 
+    
+            </div>
+            <div class="movie1">
+                <img src="image/oop1.jpg" alt="m1" class="mm1" >
+                
+                   
+                    
+                        
+                            <img src="image/oop2.jpg" alt="m2" class="mm2" >
+                            <img src="image/oop3.jpg" alt="m3" class="mm3" >
+                            <img src="image/oop4.jpg" alt="m4" class="mm4" > 
+                            <img src="image/oop5.jpg" alt="m5" class="mm5" >
+                          
+                  </div>
+                  <div class="movie12">
+                      <img src="image/oop6.jpg" alt="m6" class="mm6" >
+                </div>
+                <h1 id="sk1">Popular in Drama<hr></h1>
+                  
+            </div>
+            <div class="movie2">
+                <img src="image/oop7.jpg" alt="m7" class="mm7" >
+                <img src="image/oop8.jpg" alt="m8" class="mm8" >
+                <img src="image/oop9.jpg" alt="m9" class="mm9" >
+                <img src="image/oop10.jpg" alt="m10" class="mm10" >
+                <img src="image/oop11.jpg" alt="m11" class="mm11" >
+                  </div>
+                  <div class="movie22">
+                    <img src="image/oop12.jpg" alt="m12" class="mm12" >
+              </div>
+              <h1 id="sk1">Popular in Sci-Fi<hr></h1>
+                
+              <div class="movie3">
+                <img src="image/oop13.jpg" alt="m13" class="mm13" >
+                <img src="image/oop14.jpg" alt="m14" class="mm14" >
+                <img src="image/oop15.jpg" alt="m15" class="mm15" >
+                <img src="image/oop16.jpg" alt="m16" class="mm16" >
+                <img src="image/oop17.jpg" alt="m17" class="mm17" >
+                  </div>
+                  <div class="header1">
+            
+                    <div class= "wrap-container1">
+                        <div class="header-images1">
+                            <img src="image/logo3.jpg" alt="logo1" class="brand-image1">
+        
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="menu1">
+                    Powered by 365 Entertainment Portal 2019. All Rights Reserved.</div>
+                                </div>
+                    
+        </div>
+    </div>
+    
+</body>
+</html>
